@@ -1,0 +1,17 @@
+{
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"font_size": 15,
+	"show_line_endings": true,
+	"margin": 0,
+	"rulers": [80],
+	"word_wrap": true,
+	"draw_minimap_border": false,
+	"always_show_minimap_viewport": true,
+	"auto_complete_delay": 1,
+    "remember_full_screen": true,
+    "hot_exit": false,
+    "remember_open_files": true,
+    "open_files_in_new_window": false,
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+}

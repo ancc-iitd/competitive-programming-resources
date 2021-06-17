@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+		<![CDATA[
+for (int i=0; i<${1:N}; i++) {
+	cin>>${2:A}[i];
+}
+$0]]>
+	</content>
+	<tabTrigger>ina</tabTrigger>
+	<description>Input Array</description>
+</snippet>

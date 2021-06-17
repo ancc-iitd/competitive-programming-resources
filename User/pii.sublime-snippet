@@ -1,0 +1,6 @@
+<snippet>
+	<content>
+		<![CDATA[pair <int, int> ]]>
+	</content>
+	<tabTrigger>pii</tabTrigger>
+</snippet>

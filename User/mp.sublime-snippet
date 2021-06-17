@@ -1,0 +1,6 @@
+<snippet>
+	<content>
+		<![CDATA[make_pair($1,$2)]]>
+	</content>
+	<tabTrigger>mp</tabTrigger>
+</snippet>

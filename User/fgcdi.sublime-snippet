@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+		<![CDATA[
+
+// use only for non-negative u, v
+int gcd(int u, int v) {
+    int shift;
+    if (u == 0 || v == 0) return v + u;
+    shift = __builtin_ctz(u | v);
+    u >>= __builtin_ctz(u);
+    do {
+        v >>= __builtin_ctz(v);
+        if (u > v) {
+            swap(u, v);
+        }
+        v -= u;
+    } while (v);
+    return u << shift;
+}
+
+]]>
+	</content>
+	<tabTrigger>fgcdi</tabTrigger>
+	<description>Custom function for GCD of integer</description>
+</snippet>

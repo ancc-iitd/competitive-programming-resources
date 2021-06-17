@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+		<![CDATA[
+for (auto _x : ${1:v}) {
+	cout << _x << "\n";
+}
+$0
+]]>
+	</content>
+	<tabTrigger>outv</tabTrigger>
+	<description>Prints the vector elements</description>
+</snippet>

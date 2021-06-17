@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+		<![CDATA[
+
+// use only for non-negative u, v
+long long gcd(long long u, long long v) {
+    int shift;
+    if (u == 0 || v == 0) return u + v;
+    shift = __builtin_ctzll(u | v);
+    u >>= __builtin_ctzll(u);
+    do {
+        v >>= __builtin_ctzll(v);
+        if (u > v) {
+            swap(u, v);
+        }
+        v -= u;
+    } while (v);
+    return u << shift;
+}
+
+]]>
+	</content>
+	<tabTrigger>fgcdll</tabTrigger>
+	<description>Custom function for GCD of long long</description>
+</snippet>
