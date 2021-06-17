@@ -33,6 +33,7 @@
 * While using the zsh terminal, to make `g++` stand for the brew `g++-11`, we can create an alias. Enter command `echo "alias g++='/opt/homebrew/bin/g++-11';" >> ~/.zshrc`
 * If you're using the bash terminal instead, you would need to run this instead of the above: `echo "alias g++='/opt/homebrew/bin/g++-11';" >> ~/.bashrc`
 * Note that this alias won't work on Sublime Text, so we will have to create a custom build script for it.
+* Note that if `bits/stdc++.h` doesn't work, you should consider looking at [this blog on Codeforces](https://codeforces.com/blog/entry/70957).
 
 ## Setting up a text editor
 
