@@ -5,7 +5,7 @@
 * Create folder somewhere you can access frequently. **We want to write and keep our codes here.**
 * Open this folder in Sublime Text, and create/open files `template.cpp`, `input.txt` and `output.txt`.
 * Click on `View > Groups > New Group` two times.
-* Now feel free to drag and drop the files where you want them to be. Ideally, you would want to keep the `.cpp file` in the main left group, `input.txt` in the top right group and `output.txt` in bottom right group, ![like this](https://github.com/ancc-iitd/competitive-programming-resources/raw/main/setup/sublime/SublimeLayout.png).
+* Now feel free to drag and drop the files where you want them to be. Ideally, you would want to keep the `.cpp file` in the main left group, `input.txt` in the top right group and `output.txt` in bottom right group.
 * If you are on Windows or Linux, select `Tools > Build System > c++17`. If you are on Mac, select `Tools > Build System > c++17_mac`. If your g++-11 path was different from `/opt/homebrew/bin/g++-11`, then change it accordingly in the User Preferences package of `c++17_mac.sublime-build`
 * Now go back to your `template.cpp`, Click on `Build With...` and select the option with `Run`
 * If it compiles well, it would show the execution time of the code (which should be negligible) and the total time it finished in (which includes the compilation time so it should be around 1 second). Next time, you can just use the shortcut `Ctrl+B` in windows/linux or `Cmd+B` in mac to build and run your code.
