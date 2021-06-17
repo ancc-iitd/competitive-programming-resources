@@ -1,20 +1,16 @@
 # The ANCC CP Guide
 
-### What is This ? 
-
-#### This is an aim to consolidate useful resources for competive programming by the Algorithms and Coding Club at IIT Delhi
-
-
+### Compilatation of Useful resources for competitive programming, curated by the Algorithms and Coding Club at IIT Delhi
 ___
 ## Table of Contents 
 ___
-- [An Introduction to Competive Programming](#introduction-to-cp)
-- [Setup](#setup)
-- [Contests ](#contests)
+- [An Introduction to Competive Programming](https://www.youtube.com/watch?v=rU4Qw-8wjR4)
+- [Setting up C++ Environment for Competitive Programming
+](https://github.com/ancc-iitd/Competitive-programming-resources/tree/main/setup)
+- [Contests](#contests)
 - [Additional Resources](#additional-resources)
-- [Mathematics for CP ](#mathematics-for-cp)
-- [ Searching and Sorting ](#searching-and-sorting)
-- [The C++ STL ](#c++-stl)
+- [Mathematics for CP](#mathematics-for-cp)
+- [Searching and Sorting](#searching-and-sorting)
 - [Data Strucutres](#data-structures)
 - [Recursion and Backtracking](#recursion-and-backtracking)
 - [Greedy Algorithms](#greedy-algorithms)
@@ -23,46 +19,34 @@ ___
 - [Graph Algorithms and Graph Traversal](#graphs)
 - [Game Theory](#game-theory)
 ---
-## Introduction to CP
----
-- What is CP ?
- 
----
-## Setup
----
-
----
 ## Contests
 ---
 
 - Online Platforms for CP
     - [Codeforces](https://codeforces.com/)
-    - [Codechef]()
-    - [AtCoder]()
-    - 
-- Other Annual Competions
-    - [ACM-ICPC]()
-    - Google
-        - [Kickstart]()
-        - [CodeJam]()
-        - [HashCode]()
-    - [Facebook HackerCup]()
+    - [CodeChef](https://www.codechef.com/)
+    - [AtCoder](https://atcoder.jp/)
 
-- Helpful Stuff for Contest Participation
-    - Fast I/O
-    - File I/O
-    - Constraints and Time Complexity Estimation
+- Other Annual Competions
+    - [ACM-ICPC](https://www.amrita.edu/icpc21)
+    - Google
+        - [Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
+        - [CodeJam](https://codingcompetitions.withgoogle.com/codejam)
+        - [HashCode](https://codingcompetitions.withgoogle.com/hashcode)
+    - [Facebook HackerCup](https://www.facebook.com/codingcompetitions/hacker-cup/)
+
 ---
 ## Additional Resources
 ---
-- Websites
+- Websites 
     - [CP Algorithms](http://cp-algorithms.com/)
     - [USACO Guide](https://usaco.guide/)
 - YouTube Channels
     - [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
     - [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
 - Problem-sets
-    - [CSES](cses.fi/book.pdf)
+    - [CSES](http://cses.fi/problemset)
+    - [Project Euler]https://projecteuler.net/)
     - [A2Oj Ladders](https://a2oj.com/Ladders.html)
     - [LeetCode](https://leetcode.com/problems/)
 - Books 
@@ -142,6 +126,3 @@ ___
 ---
 ## Game Theory
 ---
-
-
-
