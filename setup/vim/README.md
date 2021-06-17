@@ -1,4 +1,17 @@
-## About Vim
+## Table of Contents
+
+#### [About Vim](#about)
+#### [Installing Vim](#installing)
+##### [On Windows](#windows)
+##### [On Ubuntu/Debian-based Linux distros (using `apt-get`)](#debian)
+##### [On Arch-based Linux distros (using `pacman`)](#arch)
+##### [On Mac](#mac)
+#### [Basic Vim Commands](#commands)
+#### [Configuring Vim with a `vimrc`](#vimrc)
+#### [Adding plugins to Vim](#plugins)
+#### [Recommended plugins](#recommended)
+
+## <a name="about"></a>About Vim
 
 According to the [official website](https://www.vim.org/about.php),
 
@@ -13,33 +26,33 @@ in the most complicated of ways at typing speed.
 Vim has both terminal and GUI versions (Vim and gVim respectively). The following instructions will install the terminal versions except in Windows. You can install gVim instead too, but for
 the sake of simplicity, we will give installation instructions for Vim.
 
-## Installing Vim
+## <a name="installing"></a> Installing Vim
 
 The [official website](https://www.vim.org/download.php) offers many options to download Vim. We outline some of the more popular ways to install Vim.
 
-### On Windows
+### <a name="windows"></a> On Windows
 
 * Go to [this website](https://www.vim.org/download.php#pc) and click on `gvim82.exe` (might be different if you are reading this in the future) and follow the instructions on the screen. Note that
   on Windows, this will install gVim, which is a GUI application for Vim.
 
-### On Ubuntu/Debian-based Linux distros (using `apt-get`)
+### <a name="debian"></a> On Ubuntu/Debian-based Linux distros (using `apt-get`)
 
 * In a terminal, run the command `sudo apt-get install vim`, and select `Y` at each prompt. To check whether `vim` has been installed, run the command `vim --version`.
 * To install gVim instead, run the command `sudo apt-get install vim-gtk3` instead.
 
-### On Arch-based Linux distros (using `pacman`)
+### <a name="arch"></a> On Arch-based Linux distros (using `pacman`)
 
 * In a terminal, run the command `sudo pacman -Syu vim`, and follow the usual instructions. To check whether `vim` has been installed, run the command `vim --version`.
 * To install gVim instead, run the command `sudo pacman -Syu vim` and `sudo pacman -Syu gvim`.
 
-### On Mac
+### <a name="mac"></a> On Mac
 
 * Assuming you have Homebrew installed (if not, run the command `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in your terminal), run the
   command `brew install vim` on the terminal and follow the instructions (if any). To check whether `vim` has been installed, run the command `vim --version` on your terminal.
 * To install MacVim (the gVim port for MacOS) instead, assuming you have Homebrew installed, run `brew install vim && brew install macvim` and then `brew link macvim`. To run MacVim, you can run
   `mvim` in the terminal.
 
-## Basic Vim commands
+## <a name="commands"></a> Basic Vim commands
 
 * Running `vim` on the terminal (for Linux and Mac) starts Vim. For gVim, there should be an application that you can open like a usual GUI application.
 * Typing `:q!<Enter>` exits Vim.
@@ -48,7 +61,7 @@ The [official website](https://www.vim.org/download.php) offers many options to 
   application itself. To run it in the terminal, run `vimtutor`. For Windows, you need to go the directory where gVim was installed, and search for an executable called `vimtutor` and run it.
 * For more commands, [this website](https://vim.fandom.com/wiki/Vim_Tips_Wiki) is a pretty good resource, and here;s a [Vim FAQ](https://vimhelp.org/vim_faq.txt.html).
 
-## Configuring Vim with a `vimrc`
+## <a name="vimrc"></a> Configuring Vim with a `vimrc`
 
 Coming to the configuration part, you can read more about it in the above links. We have included a `vimrc` in this directory, which is a minimal Vim configuration file. To use it, if you're not
 on Windows, you need to copy it to your home folder and rename it to `.vimrc`, and for Windows, you need to copy it to your user folder (`C:/Users/<username>`) and rename it to `_vimrc` or `_gvimrc`.
@@ -76,11 +89,11 @@ A brief explanation of what it does is as follows:
 * The next few lines define the display properties for certain terminals and gVim
 * `packadd termdebug` adds `gdb` support to Vim, so that you can debug using `gdb` in Vim itself without having to go to the terminal
 
-## Adding plugins to Vim
+## <a name="plugins"></a> Adding plugins to Vim
 
 For adding plugins to Vim, consider using package managers like `Vundle`, `Pathogen` and `vim-plug`. Some installation instructions can be found [here](https://opensource.com/article/20/2/how-install-vim-plugins).
 
-## Recommended plugins
+## <a name="recommended"></a> Recommended plugins
 
 * [UltiSnips](https://github.com/SirVer/ultisnips) - This is a plugin for handling snippets in Vim.
 * [coc.nvim](https://github.com/neoclide/coc.nvim) - This is a useful autocomplete plugin.

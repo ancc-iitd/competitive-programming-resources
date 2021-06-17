@@ -1,6 +1,6 @@
-# Setting up Environment for Competitive Programming
+# Setting up the environment for Competitive Programming
 
-### [Installing g++ compiler](#installing-g-compiler)
+### [Installing the g++ compiler](#installing-g-compiler)
 #### [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
 #### [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
 #### [Installing g++ on Mac using Homebrew](#installing-g-on-mac-using-homebrew)
@@ -12,7 +12,7 @@
 * Download and run [cygwin installer](https://cygwin.com/setup-x86_64.exe)
 * Next > Next > Note down the path of this root directory (`C:\cygwin64`)
 * Next > Next > Next > Select any mirror
-* Next > Now select `View > Category`, Then find the package at `All>Devel>gcc-g++`, and in the dropdown menu select the latest stable version (depends on when you are installing this).
+* Next > Now select `View > Category`, Then find the package at `All > Devel > gcc-g++`, and in the dropdown menu select the latest stable version (depends on when you are installing this).
 * Next > Next > Finish
 * Now open the powershell and enter command `setx PATH "$Env:PATH;C:\cygwin64\bin"`. If you are using old cmd prompt, enter command `setx PATH "%PATH%;C:\cygwin64\bin"`
 * Now close the terminal window, and open it again, the path would be updated, try to run `g++ -v` It should work and show the gcc version and configuration settings
