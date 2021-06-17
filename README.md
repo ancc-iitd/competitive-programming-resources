@@ -1,6 +1,6 @@
 # The ANCC CP Guide
 
-### Compilatation of Useful resources for competitive programming, curated by the Algorithms and Coding Club at IIT Delhi
+### Compilation of useful resources for competitive programming, curated by the Algorithms and Coding Club, IIT Delhi
 ## Table of Contents 
 - [An Introduction to Competive Programming](https://www.youtube.com/watch?v=rU4Qw-8wjR4)
 - [Setting up C++ Environment for Competitive Programming](https://github.com/ancc-iitd/Competitive-programming-resources/tree/main/setup)
