@@ -18,29 +18,34 @@
 - [Game Theory](#game-theory)
 -->
 ## Resources
-- Books 
-    - [The CP HandBook](https://cses.fi/book.pdf) This book covers most topics to start with in competitive programming. It will also help you learn basic C++ STL functions.
-    - [Introduction to Algorithms - CLRS](https://g.co/kgs/Qx7EEx) This is a classic university text which covers Data Structure and Algorithms concepts in detail.
-    - [Elementary Number Theory by David Burton](https://g.co/kgs/9jeHiX) This book will help master math concepts of number theory.
-    - [USACO Book](https://darrenyao.com/usacobook/cpp.pdf) This are the resources from USA Computing Olympiad Camp.
-- Problem-sets
+- Books
+    - [The Competitive Programmer's Handbook](https://cses.fi/book.pdf) This book covers most topics to start with in competitive programming.
+    - [Introduction to Algorithms - CLRS](https://g.co/kgs/Qx7EEx) This is a classic university text which covers data structures and algorithms in some detail.
+    - [Elementary Number Theory - David Burton](https://g.co/kgs/9jeHiX) This is an introduction to number theory used in competitive programming.
+    - [USACO Book](https://darrenyao.com/usacobook/cpp.pdf) This book is a great resource to start out, and was originally meant for participants of the USA Computing Olympiad.
+- Problemsets
     - [CSES](http://cses.fi/problemset)
+    - [Codeforces Problemset](https://codeforces.com/problemset)
+    - [Codechef Problemset](https://www.codechef.com/problems/school)
     - [Project Euler](https://projecteuler.net/)
-    - [A2Oj Ladders](https://a2oj.com/Ladders.html)
+    - [A2OJ Ladders](https://a2oj.com/Ladders.html)
     - [LeetCode](https://leetcode.com/problems/)
-- Websites 
-    - [CP Algorithms](http://cp-algorithms.com/)
+- Websites
+    - [Competitive Programming Algorithms](http://cp-algorithms.com/)
     - [USACO Guide](https://usaco.guide/)
 - YouTube Channels
+    - [Algorithms Live!](https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w)
+    - [SecondThread](https://www.youtube.com/channel/UCXbCohpE9IoVQUD2Ifg1d1g)
+    - [Stable Sort](https://www.youtube.com/channel/UCV2g02zq5y7unJ_GSr-de2w)
     - [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
     - [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
 ## Contests
-- Online Platforms for CP
+- Online Platforms for Competitive Programming
     - [Codeforces](https://codeforces.com/)
     - [CodeChef](https://www.codechef.com/)
     - [AtCoder](https://atcoder.jp/)
 - Other Annual Competions
-    - [ACM-ICPC](https://www.amrita.edu/icpc21)
+    - [ACM-ICPC](https://icpc.global)
     - Google
         - [Kickstart](https://codingcompetitions.withgoogle.com/kickstart)
         - [CodeJam](https://codingcompetitions.withgoogle.com/codejam)
@@ -49,7 +54,7 @@
 <!-- ---
 
 ---
-## Mathematics for CP
+## Mathematics for Competitive Programming
 ---
 - Topics
      - <span style="color : green ;">Bit - Manipulation </span>
