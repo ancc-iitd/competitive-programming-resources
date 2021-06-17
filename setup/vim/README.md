@@ -2,17 +2,17 @@
 
 #### [About Vim](#about)
 #### [Installing Vim](#installing)
-##### [On Windows](#windows)
-##### [On Ubuntu/Debian-based Linux distros (using `apt-get`)](#debian)
-##### [On Arch-based Linux distros (using `pacman`)](#arch)
-##### [On Mac](#mac)
+##### -- [On Windows](#windows)
+##### -- [On Ubuntu/Debian-based Linux distros (using `apt-get`)](#debian)
+##### -- [On Arch-based Linux distros (using `pacman`)](#arch)
+##### -- [On Mac](#mac)
 #### [Basic Vim Commands](#commands)
 #### [Configuring Vim with a `vimrc`](#vimrc)
 #### [Adding plugins to Vim](#plugins)
 #### [Recommended plugins](#recommended)
 #### [An example of a workflow in Vim](#workflow)
-##### [On Linux/MacOS](#linux-workflow)
-##### [On Windows](#windows-workflow)
+##### -- [On Linux/MacOS](#linux-workflow)
+##### -- [On Windows](#windows-workflow)
 
 ## <a name="about"></a>About Vim
 

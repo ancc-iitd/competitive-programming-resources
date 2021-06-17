@@ -1,10 +1,10 @@
 # Setting up the environment for Competitive Programming
 
 ### [Installing the g++ compiler](#installing-g-compiler)
-#### [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
-#### [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
-#### [Installing g++ on Mac using Homebrew](#installing-g-on-mac-using-homebrew)
-#### [Compiling code with g++](#compiling-code-with-g)
+#### -- [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
+#### -- [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
+#### -- [Installing g++ on Mac using Homebrew](#installing-g-on-mac-using-homebrew)
+#### -- [Compiling code with g++](#compiling-code-with-g)
 ### [Setting up a text editor](#setting-up-a-text-editor)
 
 ## Installing g++ compiler
