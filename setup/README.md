@@ -1,5 +1,7 @@
 # Setting up an environment for Competitive Programming
 
+## Table of Contents
+
 #### [Installing the g++ compiler](#installing-g-compiler)
 ##### * [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
 ##### * [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
