@@ -4,6 +4,7 @@
 #### [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
 #### [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
 #### [Installing g++ on Mac using Homebrew](#installing-g-on-mac-using-homebrew)
+#### [Compiling code with g++](#compiling-code-with-g)
 ### [Setting up a text editor](#setting-up-a-text-editor)
 
 ## Installing g++ compiler
@@ -35,6 +36,19 @@
 * If you're using the bash terminal instead, you would need to run this instead of the above: `echo "alias g++='/opt/homebrew/bin/g++-11';" >> ~/.bashrc`
 * Note that this alias won't work on Sublime Text, so we will have to create a custom build script for it.
 * Note that if `bits/stdc++.h` doesn't work, you should consider looking at [this blog on Codeforces](https://codeforces.com/blog/entry/70957).
+
+### Compiling code with g++
+For C++, your `.cpp` file is compiled to an executable before it can be executed. For Windows, the extension is `.exe`, and for Linux/Mac it can be empty or `.out`.
+
+To compile your code in the simplest way possible, the command `g++ <file>.cpp` works, and gives you an executable called `a.out`. For compiling to a specific executable, `g++ -o <executable-name>
+<file>.cpp` works. Here `-o` is a compiler flag that tells us where the output of the compiler (i.e., the executable) needs to go.
+
+A list of standard compiler flags can be found on the [ICPC Programming Environment](https://icpc.global/worldfinals/programming-environment) and [CodeChef](https://discuss.codechef.com/t/what-are-the-compiler-options-that-the-judge-uses/)
+* `-std=...` specifies the version of C++ we are using, and we will use `std=c++17` for the latest standard whose features can be used and successfully compiled in `g++` at the time of writing.
+* `-O2` flag is an optimizing flag, and is usually used on most competitive programming websites.
+* `-Wall` is a flag which enables all warnings, so that you can write better code.
+* `-g` is a flag which allows you to use `gdb` debugger, which is a very powerful tool to debug your code. Check this [video](https://www.youtube.com/watch?v=svG6OPyKsrw) out to learn more about it.
+* `-o` sets the name of the executable file, it is `a.out` or `a.exe` if not specified.
 
 ## Setting up a text editor
 

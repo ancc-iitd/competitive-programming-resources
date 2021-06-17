@@ -10,18 +10,10 @@
 * Now go back to your `template.cpp`, Click on `Build With...` and select the option with `Run`
 * If it compiles well, it would show the execution time of the code (which should be negligible) and the total time it finished in (which includes the compilation time so it should be around 1 second). Next time, you can just use the shortcut `Ctrl+B` in windows/linux or `Cmd+B` in mac to build and run your code.
 
-### Understanding the build system, and g++ flags
+### Understanding the build system
 Our build system is in the `gnu++17.sublime-build` file from [User](https://github.com/ancc-iitd/Competitive-programming-resources/tree/main/setup/User) folder, read the syntax from Sublime's [documentation](https://www.sublimetext.com/docs/build_systems.html)
 
 When Sublime Text executes shell commands, it does not follow the aliases, hence in mac, we had to give full path for the executable of `g++-11`.
-
-A list of standard compiler flags can be found on the [ICPC Programming Environment](https://icpc.global/worldfinals/programming-environment) and [CodeChef](https://discuss.codechef.com/t/what-are-the-compiler-options-that-the-judge-uses/)
-* `std=gnu++17` specifies the version of C++ we are using, and writing gnu++17 instead of c++17 includes some extensions offered by GNU standard.
-* `O2` flag optimises your code, and basically removes unnecessary lines which are not used so they will not be executed at runtime.
-* `Wall` is a flag which enables all warnings, so that you can write better code.
-* `g` is a flag which allows you to use `gdb` debugger, which is a very powerful tool to debug your code. Check this [video](https://www.youtube.com/watch?v=svG6OPyKsrw) out to learn more about it.
-* `o` sets the name of the executable file, it is `a.out` or `a.exe` by default.
-* The command after `&&` is executed after the previous command runs succesfully.
 
 ### Using snippets to write code fast
 While coding, sometimes there are blocks of code we use frequently. To avoid having to write them by hand every time, we can create snippets to insert those lines of code quickly into our project.

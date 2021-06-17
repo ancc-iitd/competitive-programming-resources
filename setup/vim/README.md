@@ -10,6 +10,9 @@
 #### [Configuring Vim with a `vimrc`](#vimrc)
 #### [Adding plugins to Vim](#plugins)
 #### [Recommended plugins](#recommended)
+#### [An example of a workflow in Vim](#workflow)
+##### [On Linux/MacOS](#linux-workflow)
+##### [On Windows](#windows-workflow)
 
 ## <a name="about"></a>About Vim
 
@@ -100,3 +103,25 @@ For adding plugins to Vim, consider using package managers like `Vundle`, `Patho
 * [NerdCommenter](https://github.com/preservim/nerdcommenter) - This is a plugin for commenting code in a much faster way than usual.
 * [GruvBox](https://github.com/morhetz/gruvbox) - This is a plugin for the gruvbox colorscheme in Vim.
 * [ClangFormat](https://github.com/rhysd/vim-clang-format) - This is a plugin for autoformatting code in a single keystroke using ClangFormat (needs `clang-format` to be installed on the system).
+
+## <a name="workflow"></a> An example of a workflow in Vim
+
+Note that in command mode, you can run commands in Vim. What follows is how you can automate compilation and executing your code inside Vim (if you don't want to exit Vim to use the terminal).
+
+### <a name="linux-worflow"></a> On Linux/MacOS
+
+The command for compiling the file `a.cpp` into an executable with a name `a` is `g++ -o a a.cpp`. More about compilation is in the top-level README in the `setup` directory.
+
+To execute this from within Vim, you can type `:g++ -o a a.cpp` in normal mode to compile the file (the `:` takes you to command mode and when you hit `<Enter>` it runs the command). Similarly, to run the executable `a`, you can type `:./a` and it will run in command mode.
+
+It is usually a good idea to use a Makefile or some other automated build system than to write out all these commands explicitly. To use the Makefile provided in this directory, you first need to install `make` (using `sudo apt install make` on Ubuntu/Debian-based Linux distros, `sudo pacman -Syu make` on Arch-based Linux distros, or `brew install make` on MacOS), copy the Makefile to the current working directory, and then run `:make <file>` in command mode if your filename is `<file>.cpp`. This will compile your file with the `NORMAL_FLAGS` in the Makefile.
+
+To compile in a paranoid debug mode, run `:make <file> D=1` instead, and it will turn on a lot of warnings while compiling (more specifically, it will compile using `PEDANTIC_FLAGS`), and when your program crashes, it'll give you some useful information rather than just a segmentation fault. You can potentially use `gdb` to debug the code as well if you want to.
+
+To optionally clear all executables in the current directory, you can run `:make clean` (this uses GNU `find`, and hasn't been tested on anything except Linux).
+
+### <a name="windows-workflow"></a> On Windows
+
+The same thing holds true for Windows as well. However, if you want to use the Makefile, you'll need to install `make` on Windows first. For more details on how to do that, you can follow
+instructions [here](https://stackoverflow.com/questions/2532234/how-to-run-a-makefile-in-windows).
+
