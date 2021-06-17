@@ -18,7 +18,7 @@ When Sublime Text executes shell commands, it does not follow the aliases, hence
 ### Using snippets to write code fast
 While coding, sometimes there are blocks of code we use frequently. To avoid having to write them by hand every time, we can create snippets to insert those lines of code quickly into our project.
 
-Read the [documentation](https://docs.sublimetext.io/guide/extensibility/snippets.html) for syntax of snippets. In the [User](https://github.com/ancc-iitd/competitive-programming-resources/tree/main/setup/User) folder, we have provided some `.sublime-snippet` files for example.
+Read the [documentation](https://docs.sublimetext.io/guide/extensibility/snippets.html) for syntax of snippets. We have provided some `.sublime-snippet` files for example.
 
 * To get the skeleton of the `template.cpp` file in a new code, rather than having to copy paste, just type in `cpp` and press `Tab` on keyboard, it will also take you to the `solve()` function body.
 * To create a for loop for repeating `N` times, type in `rep`, then the initial variable, then tab, then initial value, then tab, then upper value, then tab. To leave them to default, just keep pressing `tab` and move on. You can write similar snippets for taking input or output of a vector or other data structures.
