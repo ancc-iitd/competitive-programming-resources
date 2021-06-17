@@ -99,7 +99,7 @@ ___
     - <span style="color : red ;">Graphs
     - <span style ="color : red ; ">Trees
     - <span style="color : red ;">Segment Trees and Fenwick Trees
----
+<!-- ---
 ## Recursion and Backtracking
 ---
 
@@ -126,3 +126,4 @@ ___
 ---
 ## Game Theory
 ---
+ -->
