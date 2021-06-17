@@ -1,5 +1,14 @@
 # Setting up Environment for Competitive Programming
 
+## [Installing g++ compiler](#installing-g-compiler)
+### [Installing g++ on Windows using Cygwin](#installing-g-on-windows-using-cygwin)
+### [Installing g++ on Ubuntu using apt](#installing-g-on-ubuntu-using-apt)
+### [Installing g++ on Mac using Homebrew](#installing-g-on-mac-using-homebrew)
+## [Setting up Sublime Text 4](#setting-up-sublime-text-4)
+### [Understanding the template.cpp](#understanding-the-templatecpp)
+### [Understanding the build system, and g++ flags](#understanding-the-build-system-and-g-flags)
+### [Using snippets to write code fast](#using-snippets-to-write-code-fast)
+
 ## Installing g++ compiler
 
 ### Installing g++ on Windows using Cygwin
