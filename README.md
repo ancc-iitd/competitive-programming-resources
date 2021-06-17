@@ -1,14 +1,12 @@
 # The ANCC CP Guide
 
 ### Compilatation of Useful resources for competitive programming, curated by the Algorithms and Coding Club at IIT Delhi
-___
 ## Table of Contents 
-___
 - [An Introduction to Competive Programming](https://www.youtube.com/watch?v=rU4Qw-8wjR4)
-- [Setting up C++ Environment for Competitive Programming
-](https://github.com/ancc-iitd/Competitive-programming-resources/tree/main/setup)
+- [Setting up C++ Environment for Competitive Programming](https://github.com/ancc-iitd/Competitive-programming-resources/tree/main/setup)
+- [Resources](#resources)
 - [Contests](#contests)
-- [Additional Resources](#additional-resources)
+<!-- ---
 - [Mathematics for CP](#mathematics-for-cp)
 - [Searching and Sorting](#searching-and-sorting)
 - [Data Strucutres](#data-structures)
@@ -18,15 +16,29 @@ ___
 - [Trees](#trees)
 - [Graph Algorithms and Graph Traversal](#graphs)
 - [Game Theory](#game-theory)
----
+-->
+## Resources
+- Books 
+    - [The CP HandBook](https://cses.fi/book.pdf) This book covers most topics to start with in competitive programming. It will also help you learn basic C++ STL functions.
+    - [Introduction to Algorithms - CLRS](https://g.co/kgs/Qx7EEx) This is a classic university text which covers Data Structure and Algorithms concepts in detail.
+    - [Elementary Number Theory by David Burton](https://g.co/kgs/9jeHiX) This book will help master math concepts of number theory.
+    - [USACO Book](https://darrenyao.com/usacobook/cpp.pdf) This are the resources from USA Computing Olympiad Camp.
+- Problem-sets
+    - [CSES](http://cses.fi/problemset)
+    - [Project Euler](https://projecteuler.net/)
+    - [A2Oj Ladders](https://a2oj.com/Ladders.html)
+    - [LeetCode](https://leetcode.com/problems/)
+- Websites 
+    - [CP Algorithms](http://cp-algorithms.com/)
+    - [USACO Guide](https://usaco.guide/)
+- YouTube Channels
+    - [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
+    - [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
 ## Contests
----
-
 - Online Platforms for CP
     - [Codeforces](https://codeforces.com/)
     - [CodeChef](https://www.codechef.com/)
     - [AtCoder](https://atcoder.jp/)
-
 - Other Annual Competions
     - [ACM-ICPC](https://www.amrita.edu/icpc21)
     - Google
@@ -34,25 +46,7 @@ ___
         - [CodeJam](https://codingcompetitions.withgoogle.com/codejam)
         - [HashCode](https://codingcompetitions.withgoogle.com/hashcode)
     - [Facebook HackerCup](https://www.facebook.com/codingcompetitions/hacker-cup/)
-
----
-## Additional Resources
----
-- Websites 
-    - [CP Algorithms](http://cp-algorithms.com/)
-    - [USACO Guide](https://usaco.guide/)
-- YouTube Channels
-    - [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg)
-    - [William Lin](https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q)
-- Problem-sets
-    - [CSES](http://cses.fi/problemset)
-    - [Project Euler]https://projecteuler.net/)
-    - [A2Oj Ladders](https://a2oj.com/Ladders.html)
-    - [LeetCode](https://leetcode.com/problems/)
-- Books 
-    - [The CP HandBook](https://cses.fi/book.pdf)
-    - [Introduction to ALgorithms - CLRS](https://g.co/kgs/Qx7EEx)
-    - [ Elementary Number Theory by David Burton](https://g.co/kgs/9jeHiX)
+<!-- ---
 
 ---
 ## Mathematics for CP
@@ -63,7 +57,6 @@ ___
     - <span style="color : yellow ;">Number Theory
     - <span style="color : red ;">Combinatorics
     - <span style="color : red ;">Geometry
-
 
 ---
 ## Searching and Sorting
@@ -99,7 +92,6 @@ ___
     - <span style="color : red ;">Graphs
     - <span style ="color : red ; ">Trees
     - <span style="color : red ;">Segment Trees and Fenwick Trees
-<!-- ---
 ## Recursion and Backtracking
 ---
 
