@@ -37,7 +37,7 @@
 * While using the zsh terminal, to make `g++` stand for the brew `g++-11`, we can create an alias. Enter command `echo "alias g++='/opt/homebrew/bin/g++-11';" >> ~/.zshrc`
 * If you're using the bash terminal instead, you would need to run this instead of the above: `echo "alias g++='/opt/homebrew/bin/g++-11';" >> ~/.bashrc`
 * Note that this alias won't work on Sublime Text, so we will have to create a custom build script for it.
-* Note that if `bits/stdc++.h` doesn't work, you should consider looking at [this blog on Codeforces](https://codeforces.com/blog/entry/70957).
+* Note that if `bits/stdc++.h` doesn't work now, you might have configured `g++` incorrectly.
 
 ### Compiling code with g++
 For C++, your `.cpp` file is compiled to an executable before it can be executed. For Windows, the extension is `.exe`, and for Linux/Mac it can be empty or `.out`.
