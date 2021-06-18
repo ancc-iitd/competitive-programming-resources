@@ -108,7 +108,7 @@ For adding plugins to Vim, consider using package managers like `Vundle`, `Patho
 
 Note that in command mode, you can run commands in Vim. What follows is how you can automate compilation and executing your code inside Vim (if you don't want to exit Vim to use the terminal).
 
-### <a name="linux-worflow"></a> On Linux/MacOS
+### <a name="linux-workflow"></a> On Linux/MacOS
 
 The command for compiling the file `a.cpp` into an executable with a name `a` is `g++ -o a a.cpp`. More about compilation is in the top-level README in the `setup` directory.
 
