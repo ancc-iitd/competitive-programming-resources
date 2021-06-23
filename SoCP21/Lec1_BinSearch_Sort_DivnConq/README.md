@@ -11,7 +11,8 @@ Problems discussed in the lecture:
 
 [Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec1_BinSearch_Sort_DivnConq/Sorting_Divide_and_Conquer.pdf)
 
-## [Practice Mashup Link](https://vjudge.net/contest/444260)
+## Practice Mashup Link
+[Click Here](https://vjudge.net/contest/444260)
 
 ### Some Other Problems
 1. [Digit Queries](https://cses.fi/problemset/task/2431/)
