@@ -13,3 +13,6 @@ Problems discussed in the lecture:
 
 ## [Practice Mashup Link](https://vjudge.net/contest/444260)
 
+### Some Other Problems
+1. [Digit Queries](https://cses.fi/problemset/task/2431/)
+
