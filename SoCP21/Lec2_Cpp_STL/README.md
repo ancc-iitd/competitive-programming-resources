@@ -8,6 +8,8 @@
 
 ### Bitwise operations and Bitsets
 [Codeforces Blogs](https://codeforces.com/blog/entry/73490)
+
 ##### Questions
 [Hamming Distance](https://cses.fi/problemset/task/2136)
+
 [Beautiful Subgrids](https://cses.fi/problemset/task/2137)
