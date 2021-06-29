@@ -1,7 +1,7 @@
 ## C++ STl
 
 ### STL INTRODUCTION
-[Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/Map_Set.pdf)
+[Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/STL_Intro.pdf)
 
 ### Vectors, Sets, Maps, Stacks,Queues
 [Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/Map_Set.pdf)
