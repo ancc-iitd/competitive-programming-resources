@@ -9,6 +9,9 @@
 ### Bitwise operations and Bitsets
 [Codeforces Blogs](https://codeforces.com/blog/entry/73490)
 
+## Practice Mashup Link
+[Click Here](https://vjudge.net/contest/444867)
+
 #### Questions
 [Hamming Distance](https://cses.fi/problemset/task/2136)
 
