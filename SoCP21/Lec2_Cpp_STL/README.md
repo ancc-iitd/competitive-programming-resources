@@ -1,4 +1,4 @@
-## C++ STl
+## C++ STL
 
 ### STL INTRODUCTION
 [Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/STL_Intro.pdf)
