@@ -5,7 +5,7 @@
 
 Problems discussed:
 1. [TMT Document](https://codeforces.com/contest/1509/problem/B)
-1. [AND, OR and square sum](https://codeforces.com/contest/1368/problem/D)
+1. [AND, OR and square sum](https://codeforces.com/contest/1368/problem/D): [analysis and discussion](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec3_Greedy_TwoPointers_AdHoc/And_Or_Square_Sum.pdf)
 
 ### Two Pointers
 [Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec3_Greedy_TwoPointers_AdHoc/Two_Pointers.pdf)
