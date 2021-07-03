@@ -1,3 +1,5 @@
+## Greedy, Two Pointers, Ad Hoc
+
 ### Greedy
 [Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec3_Greedy_TwoPointers_AdHoc/Greedy.pdf)
 
