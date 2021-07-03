@@ -8,7 +8,7 @@ Problems discussed:
 1. [AND, OR and square sum](https://codeforces.com/contest/1368/problem/D)
 
 ### Two Pointers
-[Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec3_Greedy_TwoPointers_AdHoc/Two_pointers.pdf)
+[Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec3_Greedy_TwoPointers_AdHoc/Two_Pointers.pdf)
 
 Problem discussed: [Container with Most Water](https://leetcode.com/problems/container-with-most-water/)
 
