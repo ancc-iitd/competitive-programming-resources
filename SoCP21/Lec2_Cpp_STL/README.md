@@ -1,10 +1,10 @@
 ## C++ STL
 
 ### STL INTRODUCTION
-[Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/STL_Intro.pdf)
+[Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec2_Cpp_STL/STL_Intro.pdf)
 
 ### Vectors, Sets, Maps, Stacks,Queues
-[Lecture notes](https://github.com/ancc-iitd/competitive-programming-resources/blob/main/SoCP21/Lec2_Cpp_STL/Map_Set.pdf)
+[Lecture notes](https://ancc-iitd.github.io/competitive-programming-resources/SoCP21/Lec2_Cpp_STL/Map_Set.pdf)
 
 ### Bitwise operations and Bitsets
 [Codeforces Blogs](https://codeforces.com/blog/entry/73490)
