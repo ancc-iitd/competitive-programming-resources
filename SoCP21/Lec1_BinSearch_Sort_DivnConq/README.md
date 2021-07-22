@@ -17,3 +17,5 @@ Problems discussed in the lecture:
 ### Some Other Problems
 1. [Digit Queries](https://cses.fi/problemset/task/2431/)
 
+## YouTube Session
+[![YouTube Session](https://img.youtube.com/vi/W1pTQB-2zCA/0.jpg)](https://www.youtube.com/watch?v=W1pTQB-2zCA)
