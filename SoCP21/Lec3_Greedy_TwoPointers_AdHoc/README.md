@@ -19,3 +19,6 @@ Problem discussed: [Errich-Tac-Toe (Easy Version)](https://codeforces.com/contes
 
 ### Practice Mashup Link
 [Click Here](https://vjudge.net/contest/445285)
+
+## YouTube Session
+[![YouTube Session](https://img.youtube.com/vi/niqo5MUVoFc/0.jpg)](https://www.youtube.com/watch?v=niqo5MUVoFc)

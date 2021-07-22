@@ -16,3 +16,6 @@
 [Hamming Distance](https://cses.fi/problemset/task/2136)
 
 [Beautiful Subgrids](https://cses.fi/problemset/task/2137)
+
+## YouTube Session
+[![YouTube Session](https://img.youtube.com/vi/tk8Pu1OOTd8/0.jpg)](https://www.youtube.com/watch?v=tk8Pu1OOTd8)
