@@ -5,7 +5,7 @@ This repository is meant to be a compilation of useful resources for competitive
 ## Table of Contents 
 - [ANCC Summer of Competitive Programming Sessions](#ancc-summer-of-competitive-programming-sessions)
 - [An Introduction to Competitive Programming](#an-introduction-to-competitive-programming)
-- [Setting up C++ environment](#setting-up-c++-environment)
+- [Setting up C++ environment](#setting-up-c-environment)
 - [Resources](#resources)
 - - [Books](#books)
 - - [Problemsets](#problemsets)
@@ -60,9 +60,9 @@ Problems on data structures and algorithms, to practice important concepts for e
 #### [USACO Guide](https://usaco.guide/) 
 Curated, high-quality competitive programming resources, with a complete guide at getting started with coding and getting better at competitive programming.
 #### [Competitive Programming Algorithms](http://cp-algorithms.com/) 
-provides descriptions of many algorithms and data structures especially popular in field of competitive programming
+Provides descriptions of many algorithms and data structures especially popular in field of competitive programming
 #### [cppreference](https://en.cppreference.com/w/) 
-official reference for C++, including all supported library features, functions, data structures.
+Official reference for C++, including all supported library features, functions, data structures.
 
 ### YouTube
 #### [Errichto](https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg) 
