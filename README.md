@@ -4,6 +4,7 @@ This repository is meant to be a compilation of useful resources for competitive
 
 ## Table of Contents 
 - [ANNC Orientation Session](https://docs.google.com/presentation/d/e/2PACX-1vRYiKrBKFTbyvG9iW3e7Dt6t5EA8KhcI_QjXjhVSz4PpdSXRKyhTCiVtKXUM7z__S-fIEd1R1Szc5tk/pub?start=false&loop=false)
+- [IIT Delhi Codeforces Group Form](https://docs.google.com/forms/d/e/1FAIpQLScU0VrTLzKO8gG6ebki4J44c-mFPdRN8h15jrivpAi5YjXSeg/viewform)
 - [ANCC Summer of Competitive Programming Sessions](#ancc-summer-of-competitive-programming-sessions)
 - [An Introduction to Competitive Programming](#an-introduction-to-competitive-programming)
 - [Setting up C++ environment](#setting-up-c-environment)
